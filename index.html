@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpendWise Dashboard</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="dashboard-layout">
+    <aside class="sidebar">
+      <a class="brand" href="#overview">
+        <span class="brand-icon" aria-hidden="true">S</span>
+        <span>SpendWise</span>
+      </a>
+
+      <nav class="sidebar-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="#overview">Overview</a>
+        <a class="nav-link" href="#categories">Categories</a>
+        <a class="nav-link" href="#monthly-summary">Monthly summary</a>
+        <a class="nav-link" href="#savings">Savings</a>
+      </nav>
+
+      <p class="sidebar-note">Your money, made clearer.</p>
+    </aside>
+
+    <main class="dashboard-main" id="overview">
+      <header class="dashboard-header">
+        <div>
+          <p class="eyebrow">PERSONAL FINANCE</p>
+          <h1>Good morning, Kabeya</h1>
+          <p class="header-description">
+            Here’s your spending snapshot for October.
+          </p>
+        </div>
+
+        <p class="month-label">October 2026</p>
+      </header>
+
+      <section class="summary-card" id="monthly-summary" aria-label="Monthly budget summary">
+        <div class="summary-item">
+          <p class="card-label">Monthly budget</p>
+          <p class="summary-amount">$3,200.00</p>
+        </div>
+        <div class="summary-item">
+          <p class="card-label">Spent so far</p>
+          <p class="summary-amount">$1,845.50</p>
+        </div>
+        <div class="summary-item">
+          <p class="card-label">Remaining</p>
+          <p class="summary-amount">$1,354.50</p>
+        </div>
+      </section>
+
+      <section class="categories-section" id="categories">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">YOUR MONEY AT A GLANCE</p>
+            <h2>Spending categories</h2>
+          </div>
+          <p class="section-caption">October overview</p>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-icon" aria-hidden="true">🍎</span>
+              <span class="category-status">On track</span>
+            </div>
+            <div>
+              <h3>Food</h3>
+              <p class="category-amount">$420.50</p>
+              <p class="category-detail">of $600.00 monthly budget</p>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-icon" aria-hidden="true">🚌</span>
+              <span class="category-status">On track</span>
+            </div>
+            <div>
+              <h3>Transport</h3>
+              <p class="category-amount">$128.00</p>
+              <p class="category-detail">of $250.00 monthly budget</p>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-icon" aria-hidden="true">🏠</span>
+              <span class="category-status">Paid</span>
+            </div>
+            <div>
+              <h3>Rent</h3>
+              <p class="category-amount">$900.00</p>
+              <p class="category-detail">of $900.00 monthly budget</p>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-icon" aria-hidden="true">🎟️</span>
+              <span class="category-status">On track</span>
+            </div>
+            <div>
+              <h3>Entertainment</h3>
+              <p class="category-amount">$96.00</p>
+              <p class="category-detail">of $200.00 monthly budget</p>
+            </div>
+          </article>
+
+          <article class="category-card" id="savings" tabindex="0">
+            <div class="card-top">
+              <span class="category-icon" aria-hidden="true">🌱</span>
+              <span class="category-status">Growing</span>
+            </div>
+            <div>
+              <h3>Savings</h3>
+              <p class="category-amount">$200.00</p>
+              <p class="category-detail">of $400.00 monthly goal</p>
+            </div>
+          </article>
+
+          <article class="category-card" tabindex="0">
+            <div class="card-top">
+              <span class="category-icon" aria-hidden="true">💡</span>
+              <span class="category-status">On track</span>
+            </div>
+            <div>
+              <h3>Utilities</h3>
+              <p class="category-amount">$101.00</p>
+              <p class="category-detail">of $220.00 monthly budget</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="dashboard-footer">
+        Static dashboard preview · October 2026
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
